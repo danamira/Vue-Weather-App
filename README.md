@@ -8,6 +8,6 @@ It uses weatherstack API . if you clone this project , be sure to replace the ap
 Install node modules by `npm install` and the project is ready to go .
 
 
-### 💡 run the project
+## 💡 Run the project
 In the directory of the project run ```npm run serve``` . You are ready to go ...
 See [Configuration Reference](https://cli.vuejs.org/config/).
