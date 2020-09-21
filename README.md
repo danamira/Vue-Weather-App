@@ -5,7 +5,7 @@ This project is one of my first Vue.js projects . It is a very simple SPA vue ap
 It uses weatherstack API . if you clone this project , be sure to replace the api key in the src/api.js config .
 
 ## ⚙ Project setup
-### 🔎 Installking modules
+### 🔎 Installing modules
 Install node modules by `npm install` and the project is ready to go .
 ### 🔑 Api Key
 The app uses Weatherstack API for obtaining weather data .
