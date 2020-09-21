@@ -63,7 +63,8 @@
 }
 </style>
 <script>
-import axios from 'axios'
+import axios from 'axios';
+import Api from '@/api';
 export default {
   name:'HelloWorld',
   data:function() {
@@ -72,7 +73,7 @@ export default {
       query:'',
       // cities:['New York','Detroit','Tehran','Eindhoven','Tabriz','Beijing'],
       cities:['Tehran'],
-      apiBase:'http://api.weatherstack.com/current?access_key=5004a4915f49dec86058cdf84608fad0',
+      apiBase:Api.baseUrl,
       weathers : [],
 
     }
